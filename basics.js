@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 function add(n1, n2) {
     return n1 + n2;
 }
@@ -20,7 +20,7 @@ var Role;
 var person = {
     name: "Bobby Tables",
     age: 30,
-    oldrole: [2, "admin"]
+    oldrole: [2, "admin"],
 };
 // object (implicit), with enum (custom type)
 var person2 = {
